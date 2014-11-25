@@ -97,10 +97,31 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-#homepage-header-background {background: url(../img/background.jpg); height: 100vh;}
+.center {
+    text-align: center;
+}
+
+#welcome-banner {
+    background: url(../img/background.jpg);
+    height: 100vh;
+}
+#projects, #links, #services, #contact {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.project, .service {
+    width: 33.333%;
+    float: left;
+}
 
 /* Bottom next bottom */
-#bottom-button-container {position: fixed; width: 100%; bottom: 10px; text-align: center;}
+#bottom-button-container {
+    position: fixed;
+    width: 100%;
+    bottom: 10px;
+    text-align: center;
+}
 #next-section-button {
 	width: 80px;
 	height: 80px;
@@ -114,7 +135,9 @@ textarea {
 	max-height: 30vh;
 	max-width: 30vh;
 }
-#next-section-button:hover {background-color: rgba(211,211,211,0.9);}
+#next-section-button:hover {
+    background-color: rgba(211,211,211,0.9);
+}
 
 /* ==========================================================================
    Helper classes
