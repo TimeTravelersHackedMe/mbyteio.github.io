@@ -21,6 +21,13 @@ html {
     background: url(../img/background.jpg);
     height: 100vh;
 }
+#es-logo {
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+
+}
 #main-content {
     min-height: 100vh;
     max-width: 900px;
