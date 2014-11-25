@@ -3,13 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Brian Zalewski -- Web Developer -- @EnviedSolutions
 
 # THANKS
 
-    <name>
+    Laura Zalewski for the logo
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+    Normalize.css, jQuery
