@@ -1,5 +1,12 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:800,400');
 html {
        overflow-y: scroll;
+}
+h1, h2, h3, h4, h5 {
+    font-family: "Open Sans";
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgb(88,88,88);
 }
 .logo-container {
     height: 125px;
@@ -14,15 +21,20 @@ html {
     margin-left: 10%;
 }
 .caption {
-    color: rgb(44,44,44);
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: rgb(88,88,88);
     font-size: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 #welcome-banner {
     background: url(../img/background.jpg);
     height: 100vh;
 }
 #es-logo {
-    width: 80%;
+    width: 40%;
+    max-width: 480px;
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
@@ -36,11 +48,16 @@ html {
 }
 #projects, #links, #services, #contact {
     float: left;
+    width: 100%;
 }
-
 .project, .service {
-    width: 33.333%;
     float: left;
+}
+.project {
+    width: 33.333%;
+}
+.service {
+    width: 25%;
 }
 
 /* Bottom next bottom */
@@ -67,6 +84,9 @@ html {
     background-color: rgba(211,211,211,0.9);
 }
 
+.anim-1, .anim-2, .anim-3, .anim-4, .anim-5, .anim-6, .anim-7, .anim-8 {
+    display: none;
+}
 /* Helper classes */
 
 .center {

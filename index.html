@@ -8,7 +8,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="icon" type="image/png" href="img/favicon.png">
     </head>
     <body>
     	<div id="welcome-banner">
@@ -16,51 +15,88 @@
     	</div>
     	<div id="main-content">
     	<section id="projects">
-    		<h2 class="center"><span>Projects</span></h2>
+    		<h2 class="center">Projects</h2>
     		<div class="clearfix">
     			<div class="project">
-    				<div class="logo-container" style="">
-    					<a href="http://ultrasound.io/"><img class="logo" src="img/ultrasoundio-logo.png" alt="Simple Dish Logo"></a>
-    				</div>
-    				<p class="caption">A web controller for the Arduino and data-visualizing tool for an oscilloscope. Built using Bootstrap, HighchartsJS, and BreakoutJS.</p>
+    				<a href="http://ultrasound.io/">
+    				<div class="logo-container anim-1">
+    					<img class="logo" src="img/ultrasoundio-logo.png" alt="Ultrasound IO Logo">
+    				</div></a>
+    				<p class="caption anim-2">A web controller for the Arduino and data-visualizing tool for an oscilloscope. Built using Bootstrap, HighchartsJS, and BreakoutJS.</p>
     			</div>
     			<div class="project">
-    				<div class="logo-container" style="background-color: rgb(254,251,244);">
-    					<a href="http://www.simpledish.com/"><img class="logo" src="img/simpledish-logo.png" alt="Simple Dish Logo"></a>
-    				</div>
-    				<p class="caption">A high traffic recipe website based on ZURB Foundation. Loads advertisements -fast-.</p>
+    				<a href="http://www.simpledish.com/">
+    				<div class="logo-container anim-1" style="background-color: rgb(254,251,244);">
+    					<img class="logo" src="img/simpledish-logo.png" alt="Simple Dish Logo">
+    				</div></a>
+    				<p class="caption anim-2">A high traffic recipe website based on ZURB Foundation. Loads advertisements -fast-.</p>
     			</div>
     			<div class="project">
     				<a href="http://thebestsites.com/">
-    				<div class="logo-container" style="background-color: rgb(84,84,84);">
+    				<div class="logo-container anim-1" style="background-color: rgb(84,84,84);">
     					<img class="logo" src="img/thebestsites-logo.png" alt="The Best Sites Logo">
     				</div>
     				</a>
-    				<p class="caption">Flat UI WordPress blog built with Bootstrap. Infinite scrolling.</p>
+    				<p class="caption anim-2">Flat UI WordPress blog built with Bootstrap. Infinite scrolling.</p>
     			</div>
     		</div>
     	</section>
     	<section id="services">
-    		<h2 class="center"><span>Services</span></h2>
-    		<div class="row">
+    		<h2 class="center anim-3">Services</h2>
+    		<div class="clearfix">
     			<div class="service">
+    				<div class="logo-container anim-4">
+    					<img class="logo" src="img/html5-css3-logo.png" alt="HTML5, CSS3">
+    				</div>
+    				<p class="caption anim-5">Using HTML5 and CSS3, BlAh Deee BALH Booo.</p>
     			</div>
     			<div class="service">
+    				<div class="logo-container anim-4">
+    					<img class="logo" src="img/jquery-logo.png" alt="jQuery">
+    				</div>
+    				<p class="caption anim-5">Javascript and jQuery programming.</p>
     			</div>
     			<div class="service">
-    			</div>
-    		</div>
-    		<div class="row">
-    			<div class="service">
-    			</div>
-    			<div class="service">
+    				<div class="logo-container anim-4">
+    					<img class="logo" src="img/php-mysql-logo.png" alt="PHP/MySQL">
+    				</div>
+    				<p class="caption anim-5">PHP and MySQL programming.</p>
     			</div>
     			<div class="service">
+    				<div class="logo-container anim-4">
+    					<img class="logo" src="img/responsive-design.png" alt="Responsive Web Design">
+    				</div>
+    				<p class="caption anim-5">Responsive design ensures that your users have a consistent user experience across platforms.</p>
+    			</div>
+    			<div class="service">
+    				<div class="logo-container anim-6">
+    					<img class="logo" src="img/sass-logo.jpg" alt="SASS">
+    				</div>
+    				<p class="caption anim-7">SASS helps produce better CSS code with dramatically decreased development time.</p>
+    			</div>
+    			<div class="service">
+    				<div class="logo-container anim-6">
+    					<img class="logo" src="img/git-logo.png" alt="Git">
+    				</div>
+    				<p class="caption anim-7">The use of git allows teams of people to work together, all using the same code.</p>
+    			</div>
+    			<div class="service">
+    				<div class="logo-container anim-6">
+    					<img class="logo" src="img/wordpress-logo.jpg" alt="WordPress Development">
+    				</div>
+    				<p class="caption anim-7">WordPress is an open source website creation tool. With the right modifications, the possibilities are limitless.</p>
+    			</div>
+    			<div class="service">
+    				<div class="logo-container anim-6">
+    					<img class="logo" src="img/ajax-logo.jpg" alt="Responsive Web Design">
+    				</div>
+    				<p class="caption anim-7">Responsive web design</p>
     			</div>
     		</div>    		
     	</section>
     	<section id="contact">
-    		<h2 class="center">Hire Me</h2>
+    		<h2 class="center anim-7">Links and Contact Information</h2>
+    		<p class="anim-7">Hey dude, this is some text. What up dude? How are youz.</p>
     	</section>
     	</div>
     	<div id="bottom-button-container">
@@ -79,6 +115,21 @@
               				$('#bottom-button-container').css('display', 'none');
      					});
                     	$('#welcome-banner').css('display', 'none');
+                    	$('.anim-1').show( "slow", function() {
+                    		$('.anim-2').fadeIn("slow", function() {
+                    			$('.anim-3').fadeIn('slow', function () {
+                    				$('.anim-4').show('slow', function () {
+                    					$('.anim-5').fadeIn('slow', function() {
+                    						$('.anim-6').show('slow', function() {
+                    							$('.anim-7').fadeIn('slow', function() {
+                    							});
+                    						});
+                    					});
+                    				});
+                    			});
+                    		});
+    						
+  						});
                     });
     		});
 		});
