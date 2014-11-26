@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5 {
     padding-right: 8px;
 }
 #welcome-banner {
-    background: url(../img/background.jpg);
+    /*background: url(../img/background.jpg);*/
     background-color: black;
     height: 100vh;
 }
