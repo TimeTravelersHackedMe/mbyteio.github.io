@@ -11,7 +11,7 @@
     </head>
     <body>
     	<div id="welcome-banner">
-    		<!--<img id="es-logo" src="img/enviedsolutions-logo.png">-->
+    		<img id="es-logo" src="img/enviedsolutions-logo.png">
     	</div>
     	<div id="main-content">
     	<section id="projects">
@@ -107,6 +107,7 @@
         <script src="js/jquery-1.10.2.min.js"></script>
         <script>
         $( document ).ready(function() {
+        	$('#welcome-banner').height($(window).height());
     		$('#next-section-button').click(function() {
     			$('#main-content').css('display','block');
     			$('html, body').animate({
