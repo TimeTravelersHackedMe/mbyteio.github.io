@@ -84,6 +84,12 @@ h1, h2, h3, h4, h5 {
     background-color: rgba(211,211,211,0.9);
 }
 
+#contact-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-bottom: 55px;
+}
+
 .anim-1, .anim-2, .anim-3, .anim-4, .anim-5, .anim-6, .anim-7, .anim-8 {
     display: none;
 }
