@@ -30,6 +30,7 @@ h1, h2, h3, h4, h5 {
 }
 #welcome-banner {
     background: url(../img/background.jpg);
+    background-color: black;
     height: 100vh;
 }
 #es-logo {
@@ -92,6 +93,12 @@ h1, h2, h3, h4, h5 {
 
 .anim-1, .anim-2, .anim-3, .anim-4, .anim-5, .anim-6, .anim-7, .anim-8 {
     display: none;
+}
+@media only screen and (max-width: 740px) {
+.service > .caption {
+    display: none !important;
+}
+
 }
 /* Helper classes */
 
